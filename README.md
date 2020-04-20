@@ -27,3 +27,6 @@ Then your terminal will use git status to find the branch you are working on, gi
 ```
 git add . commit -m "commit message goes here" on branch working-branch was successful.
 ```
+
+### Future features:
+Right now it displays a success message regardless of success or failure. A nice feature would be logic to check whether git encountered an error and if so displays an error message. 
