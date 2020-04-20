@@ -30,3 +30,5 @@ acp() {
   echo "git add . commit -m \"${commitMessage}\" on branch ${workingBranch} was successful."
 }
 ```
+
+test 8 without quotes in terminal
