@@ -1,21 +1,4 @@
-# acp tests tests
-testing
-
-
-Blah blah test test
-more test
-
-test number 3
-
-ok test 4 for sure
-
-test 5
-
-asd test 6
-
-uggg test 7 - success!
-
-### Ok here's the acp() code for .bashrc:
+### Here's the acp() function for .bashrc:
 ```
 acp() {
   commitMessage="$*"
@@ -30,8 +13,6 @@ acp() {
   echo "git add . commit -m \"${commitMessage}\" on branch ${workingBranch} was successful."
 }
 ```
-
-test 8 without quotes in terminal - success!!!
 
 ### Use case: 
 Ok say you are busy working on a branch and you want to quickly acp without typing a lot. Just type in your terminal:
