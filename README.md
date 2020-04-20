@@ -44,5 +44,5 @@ $ acp commit message goes here
 ```
 then your terminal will use git status to find the branch you are working on, git add . , git commit -m "commit message", then git push to the working branch. Finallly it will display a success message displaying the commit message and branch.
 ```
-git add . commit -m "commit message" on branch working-branch was successful.
+git add . commit -m "commit message goes here" on branch working-branch was successful.
 ```
